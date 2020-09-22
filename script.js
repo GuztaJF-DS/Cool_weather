@@ -120,17 +120,3 @@ $.ajax({
     }
 });
 }
-
-function DataPrevisor(){
-$.ajax({
-    type:"get",
-    dataType:"json",    
-    url: "https://api.hgbrasil.com/weather?key=ab0481a0&city_name="+city2,
-    success: function(dados){
-        
-    },
-    error: function(){
-      document.getElementById("info2").innerHTML ="Erro, veja se você nos permitiu ver sua localização";
-    }
-});
-}   
