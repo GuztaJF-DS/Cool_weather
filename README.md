@@ -6,4 +6,6 @@ the idea is that this project takes data from Api from Hg Weather (Link :https:/
 
 Versions:
 
+1.1: On the first commit I ended up leaving a test function that was useless,this small update is to remove it
+
 1.0: Added the main features of the project, such as the weather forecast, the current climate, the comparison in a basic version, as well as a system to detect the person's city based on their latitude and longitude
